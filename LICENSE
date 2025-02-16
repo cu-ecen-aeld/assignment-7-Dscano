@@ -1,21 +1,27 @@
-MIT License
 
-Copyright (c) 2019 CU Boulder AESD ECEN 5013 
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+Unless  otherwise stated, the  source code distributed  with this book
+can   be  redistributed in source    or  binary form   so  long  as an
+acknowledgment  appears in derived source   files. The citation should
+list that the code comes from BOOK  by AUTHOR, published by O'Reilly &
+Associates.  This  code is under copyright and  cannot be  included in
+any other book, publication, or educational product without permission
+from O'Reilly &  Associates. No warranty  is attached; we  cannot take
+responsibility for errors or fitness for use.
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+There are a few exception to this licence, however: a few sources
+herein are distributed according to the GNU General Public License,
+version 2. You'll find a copy of the license in
+/usr/src/linux/COPYING, and in other places in your filesystem. The
+affected source files are:
+
+	pci/pci_skel.c
+	tty/tiny_serial.c
+	tty/tiny_tty.c
+	usb/usb-skeleton.c
+
+The files in ./pci ./tty and ./usb inherit the GPL from the kernel
+sources, as most of their code comes straight from the kernel
+(usb-skeleton.c being part of the kernel source tree directly.)
+
