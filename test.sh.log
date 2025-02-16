@@ -1,0 +1,109 @@
+Running test with user diaccio
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Generating ;/home/diaccio/assignment-7-Dscano/assignment-autotest/test/assignment1/Test_hello_Runner.c;/home/diaccio/assignment-7-Dscano/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c;/home/diaccio/assignment-7-Dscano/assignment-autotest/test/assignment7/Test_circular_buffer_Runner.c from test/assignment1/Test_hello.c;test/assignment1/Test_assignment_validate.c;test/assignment7/Test_circular_buffer.c
+-- Building executable including ;/home/diaccio/assignment-7-Dscano/assignment-autotest/test/assignment1/Test_hello_Runner.c;/home/diaccio/assignment-7-Dscano/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c;/home/diaccio/assignment-7-Dscano/assignment-autotest/test/assignment7/Test_circular_buffer_Runner.c test/assignment1/Test_hello.c;test/assignment1/Test_assignment_validate.c;test/assignment7/Test_circular_buffer.c and ../examples/autotest-validate/autotest-validate.c;../aesd-char-driver/aesd-circular-buffer.c
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/diaccio/assignment-7-Dscano/build
+[  7%] Building C object assignment-autotest/Unity/src/CMakeFiles/unity.dir/unity.c.o
+[ 15%] Linking C static library libunity.a
+[ 15%] Built target unity
+[ 23%] Generating ../../assignment-autotest/test/assignment1/Test_hello_Runner.c, ../../assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c, ../../assignment-autotest/test/assignment7/Test_circular_buffer_Runner.c, ../../assignment-autotest/test/unity_runner.c
+Test files for auto dependency generation test/assignment1/Test_hello.c test/assignment1/Test_assignment_validate.c test/assignment7/Test_circular_buffer.c
+Autogenerating runner for test/assignment1/Test_hello.c
+Autogenerating runner for test/assignment1/Test_assignment_validate.c
+Autogenerating runner for test/assignment7/Test_circular_buffer.c
+Autogenerating test/unity_runner.c
+[ 30%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello.c.o
+[ 38%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate.c.o
+[ 46%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment7/Test_circular_buffer.c.o
+[ 53%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello_Runner.c.o
+[ 61%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate_Runner.c.o
+[ 69%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment7/Test_circular_buffer_Runner.c.o
+[ 76%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/examples/autotest-validate/autotest-validate.c.o
+[ 84%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/aesd-char-driver/aesd-circular-buffer.c.o
+[ 92%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/unity_runner.c.o
+[100%] Linking C executable assignment-autotest
+[100%] Built target assignment-autotest
+/home/diaccio/assignment-7-Dscano/assignment-autotest/test/assignment1/Test_hello.c:6:test_hello:INFO: Hello!  Your unity setup is working!
+/home/diaccio/assignment-7-Dscano/assignment-autotest/test/assignment1/Test_hello.c:4:test_hello:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+/home/diaccio/assignment-7-Dscano/assignment-autotest/test/assignment1/Test_assignment_validate.c:9:test_assignment_validate:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+/home/diaccio/assignment-7-Dscano/assignment-autotest/test/assignment7/Test_circular_buffer.c:72:test_circular_buffer:INFO: Write strings 1 to 10 to the circular buffer
+/home/diaccio/assignment-7-Dscano/assignment-autotest/test/assignment7/Test_circular_buffer.c:83:test_circular_buffer:INFO: Verify strings 1 through 10 exist in the circular buffer
+/home/diaccio/assignment-7-Dscano/assignment-autotest/test/assignment7/Test_circular_buffer.c:94:test_circular_buffer:INFO: Verify a request for the last byte in the circular buffer succeeds
+/home/diaccio/assignment-7-Dscano/assignment-autotest/test/assignment7/Test_circular_buffer.c:96:test_circular_buffer:INFO: Verify a request for one offset past the last byte in the circular buffer returns not found
+/home/diaccio/assignment-7-Dscano/assignment-autotest/test/assignment7/Test_circular_buffer.c:98:test_circular_buffer:INFO: Write one more packet to the circular buffer, causing the first entry to be removed
+/home/diaccio/assignment-7-Dscano/assignment-autotest/test/assignment7/Test_circular_buffer.c:100:test_circular_buffer:INFO: Verify the first entry is removed, and all other remaining entries are found at the correct offsets
+/home/diaccio/assignment-7-Dscano/assignment-autotest/test/assignment7/Test_circular_buffer.c:68:test_circular_buffer:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+Executing assignment test script
+-- Generating ;/home/diaccio/assignment-7-Dscano/assignment-autotest/test/assignment1/Test_hello_Runner.c;/home/diaccio/assignment-7-Dscano/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c;/home/diaccio/assignment-7-Dscano/assignment-autotest/test/assignment7/Test_circular_buffer_Runner.c from test/assignment1/Test_hello.c;test/assignment1/Test_assignment_validate.c;test/assignment7/Test_circular_buffer.c
+-- Building executable including ;/home/diaccio/assignment-7-Dscano/assignment-autotest/test/assignment1/Test_hello_Runner.c;/home/diaccio/assignment-7-Dscano/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c;/home/diaccio/assignment-7-Dscano/assignment-autotest/test/assignment7/Test_circular_buffer_Runner.c test/assignment1/Test_hello.c;test/assignment1/Test_assignment_validate.c;test/assignment7/Test_circular_buffer.c and ../examples/autotest-validate/autotest-validate.c;../aesd-char-driver/aesd-circular-buffer.c
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/diaccio/assignment-7-Dscano/build
+[  7%] Building C object assignment-autotest/Unity/src/CMakeFiles/unity.dir/unity.c.o
+[ 15%] Linking C static library libunity.a
+[ 15%] Built target unity
+[ 23%] Generating ../../assignment-autotest/test/assignment1/Test_hello_Runner.c, ../../assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c, ../../assignment-autotest/test/assignment7/Test_circular_buffer_Runner.c, ../../assignment-autotest/test/unity_runner.c
+Test files for auto dependency generation test/assignment1/Test_hello.c test/assignment1/Test_assignment_validate.c test/assignment7/Test_circular_buffer.c
+Autogenerating runner for test/assignment1/Test_hello.c
+Autogenerating runner for test/assignment1/Test_assignment_validate.c
+Autogenerating runner for test/assignment7/Test_circular_buffer.c
+Autogenerating test/unity_runner.c
+[ 30%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello.c.o
+[ 38%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate.c.o
+[ 46%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment7/Test_circular_buffer.c.o
+[ 53%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello_Runner.c.o
+[ 61%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate_Runner.c.o
+[ 69%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment7/Test_circular_buffer_Runner.c.o
+[ 76%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/examples/autotest-validate/autotest-validate.c.o
+[ 84%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/aesd-char-driver/aesd-circular-buffer.c.o
+[ 92%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/unity_runner.c.o
+[100%] Linking C executable assignment-autotest
+[100%] Built target assignment-autotest
+/home/diaccio/assignment-7-Dscano/assignment-autotest/test/assignment1/Test_hello.c:6:test_hello:INFO: Hello!  Your unity setup is working!
+/home/diaccio/assignment-7-Dscano/assignment-autotest/test/assignment1/Test_hello.c:4:test_hello:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+/home/diaccio/assignment-7-Dscano/assignment-autotest/test/assignment1/Test_assignment_validate.c:9:test_assignment_validate:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+/home/diaccio/assignment-7-Dscano/assignment-autotest/test/assignment7/Test_circular_buffer.c:72:test_circular_buffer:INFO: Write strings 1 to 10 to the circular buffer
+/home/diaccio/assignment-7-Dscano/assignment-autotest/test/assignment7/Test_circular_buffer.c:83:test_circular_buffer:INFO: Verify strings 1 through 10 exist in the circular buffer
+/home/diaccio/assignment-7-Dscano/assignment-autotest/test/assignment7/Test_circular_buffer.c:94:test_circular_buffer:INFO: Verify a request for the last byte in the circular buffer succeeds
+/home/diaccio/assignment-7-Dscano/assignment-autotest/test/assignment7/Test_circular_buffer.c:96:test_circular_buffer:INFO: Verify a request for one offset past the last byte in the circular buffer returns not found
+/home/diaccio/assignment-7-Dscano/assignment-autotest/test/assignment7/Test_circular_buffer.c:98:test_circular_buffer:INFO: Write one more packet to the circular buffer, causing the first entry to be removed
+/home/diaccio/assignment-7-Dscano/assignment-autotest/test/assignment7/Test_circular_buffer.c:100:test_circular_buffer:INFO: Verify the first entry is removed, and all other remaining entries are found at the correct offsets
+/home/diaccio/assignment-7-Dscano/assignment-autotest/test/assignment7/Test_circular_buffer.c:68:test_circular_buffer:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+Test of assignment assignment7 complete with success
